@@ -81,6 +81,7 @@
 		    box-sizing: border-box;
 		}
     </style>
+    <!-- 
     <div id="newWinx" class="tanchu_box wei_show2" style="z-index: 10000000;display:none;">
         <div class="tanchu_box_no" onClick="$('.tanchu_box').hide()"></div>
         <div class="tanchu_box_con">
@@ -106,7 +107,7 @@
                             </div>
                         </td>
                         <td style="font-size:0.38rem;line-height:0.4rem;padding-left:5px">
-                            <p>易起起名网<br>大师微信<span id="tc_box_wei2"></span>18801922223</p>
+                            <br>大师微信<span id="tc_box_wei2"></span>{:C('webweixin')}</p>
                         </td>
                     </tr>
                 </tbody></table>
@@ -114,7 +115,7 @@
             <div style="height:15px"></div>
             <div style="display:flex;line-height:40px">
                 <div style="flex:1;border:1px solid #bb1b21;border-top-left-radius:4px;border-bottom-left-radius:5px;text-align:center">
-                    <p id="tc_box_wei3" style="color:#bb1b21;text-align:center;font-size:0.5rem">18801922223</p>
+                    <p id="tc_box_wei3" style="color:#bb1b21;text-align:center;font-size:0.5rem">{:C('webweixin')}</p>
                 </div>
                 <div style="width:1.4rem;background-color:#bb1b21;border-top-right-radius:4px;border-bottom-right-radius:4px">
                     <button id="weixinCopyB" data-clipboard-action="copy" data-clipboard-target="#tc_box_wei3" style="border:0;padding:0;margin:0;width:100%;height:100%;text-align:center;color:white;font-size:0.36rem;background:none;line-height:42px">微信号</button>
@@ -148,6 +149,7 @@
             </div>
         </div>
     </div>
+    -->
 	<script>
         var order_type_flag= "SHJ";
 	</script>
@@ -278,11 +280,16 @@
     <!--页面底部开始--->
     <footer class="public_footer_servers" style="margin: 0!important; text-align: center;color: #000 !important; background: #fbf2d3 ;padding: 20px 0;">
         <ul>
-            <li style="font-size: 14px!important;">易起起名网<br>电话（微信）18801922223<br>©2019 易起起名网 全年无休<br>备案号：粤ICP备13027362号</li>
+            <li style="font-size: 14px!important;">{:C('webtitle')}<br>电话：{:C('webphone')}<br>微信：{:C('webweixin')}<br>{:C('webpccopy')}<br>备案号：{:C('webicp')}</li>
             <li style="font-size: 14px!important;"></li>
             <!--<li style="font-size: 14px!important;line-height:25px;">&lt;!&ndash;&ndash;&gt;更多测算信息、问题反馈，请联系在线客服</li>-->
             <li style="font-size: 14px!important;display: none;">周易文化</li>
-            <li style="color: rgb(179, 110, 21); font-size: 14px!important;line-height:25px;">大师在线<a href="http://wpa.qq.com/msgrd?v=3&uin=13609507&site=qq&menu=yes" style="color: rgb(179, 110, 21);text-decoration: underline;"><i style="position:relative; margin: 0 18px;"><img class="erimg" src="/Public/states/images/kefu_03.png" style="width: 24px; height: 24px;display: inline-block; font-size: 16px!important;position:absolute;bottom:0;left:-12px;top: -3px !important;"></i><span style="text-decoration: underline;">点此联系汪鑫大师</span></a></li>
+            <li style="color: rgb(179, 110, 21); font-size: 14px!important;line-height:25px;">大师在线
+                <a href="http://wpa.qq.com/msgrd?v=3&uin={:C('webqq')}&site=qq&menu=yes" style="color: rgb(179, 110, 21);text-decoration: underline;">
+                    <i style="position:relative; margin: 0 18px;"><img class="erimg" src="/Public/states/images/kefu_03.png" style="width: 24px; height: 24px;display: inline-block; font-size: 16px!important;position:absolute;bottom:0;left:-12px;top: -3px !important;"></i>
+                    <span style="text-decoration: underline;">点此联系大师</span>
+                </a>
+            </li>
             <li style="width:100%;overflow: hidden;margin-top:11px;"><img src="/Public/states/images/New_dbzz_3_27.png" style="width:53.2%;display: block;margin:0 auto;"></li>        </ul>
         <!-- <div class="pf_payment"><span>Payment</span><img src="/Public/Wap2/images/payment.png" alt="" style="width:140px; height:24px;display: block;margin:0 auto;"></div> -->
     </footer>
@@ -306,14 +313,14 @@
     <!--浮动窗口-->
         <div class="mask"></div>
         <div class="layouts">
-            <h2>加汪鑫大师微信起好名</h2>
+            <h2>加大师微信起好名</h2>
             <p>每天只通过50个名额<br/>↓长按下方按钮复制并添加微信号↓</p>
-            <strong class="wxh">18801922223</strong>
+            <strong class="wxh">{:C('webweixin')}</strong>
             <a href="weixin://" class="bbbb"><img src="/Public/Wap2/images/default_1.0/bbb.png"></a>
             <a href="javascript:void(0)" class="gb" onClick="pinglunDong()"><img src="/Public/Wap2/images/default_1.0/gb.png"></a>
         </div>
         <!--浮动窗口 end-->
-		<div id="dashi_wx" onClick="$('#newWinx').show()" style="display: block;width:2rem;height:2rem;position:fixed;bottom:2rem;right:0;z-index: 99;"><img style='width:100%' src='/Public/Wap2/images/default_1.0/dswx.png'></div>
+		<div id="dashi_wx" onClick="$('#newWinx').show()" style="display: none;width:2rem;height:2rem;position:fixed;bottom:2rem;right:0;z-index: 99;"><img style='width:100%' src='/Public/Wap2/images/default_1.0/dswx.png'></div>
         <!--微信客服-->    <script>
         my_order_hide();
         function my_order_hide() {
