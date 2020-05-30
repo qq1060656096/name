@@ -1,0 +1,10 @@
+[ 2020-05-25T22:23:05+08:00 ] 121.236.105.105 /ionis.php/System/set.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+
+[ 2020-05-25T22:23:08+08:00 ] 121.236.105.105 /ionis.php/System/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+

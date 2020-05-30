@@ -1,0 +1,794 @@
+﻿<extend name="Public/base"/>
+<block name="main">
+<script src="__HOMESTYLE__/js/cookie.js"></script>
+<!-- 头部结束 -->
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+     <meta name="renderer" content="webkit|ie-comp|ie-stand">
+     <meta name="renderer" content="webkit">
+<meta name="renderer" content="webkit"><!-- 避免IE使用兼容模式 -->
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="320" name="MobileOptimized">
+<div id="container"> 
+  <!-- 在线下单 -->
+  <div class="index-section place-order" name='place-order' id='place-order'>
+    <div class="min-width">
+      <div class="top">
+        <div class="top-title"> <img src="__HOMESTYLE__/picture/index_98.png" /> </div>
+      </div>
+      <div class="section3" style="  height: auto;overflow: hidden;border: 3px solid #d2d2d2;border-top: 0;border-bottom: 0;margin-top: -40px;">
+        <div class="step-wrap">
+          <div style="padding: 10px 0;"><h2>简单3步 马上取到好名字！</h2></div>
+          <p class="intro">为你节省 学习起名知识所需的大量时间</p>
+          <div class="step"> <a href="javascript:;">输入资料</a><span>&gt;</span> <a href="javascript:;">订单付款</a><span>&gt;</span> <a href="javascript:;">选取名字</a> </div>
+        </div>
+		<script>
+			function csztfun(){
+				$(".shichen").show();
+				
+				$(".gd_wz").hide();
+				$(".srycq").html("生日");
+				$("#gender").val(1);
+				 
+				$(".gd_nan").addClass("active");
+				$(".gd_nv").removeClass("active");
+				$(".gd_wz").removeClass("active");
+ 
+			}
+			function csztfun1(){
+				$(".shichen").hide();
+				
+				$(".gd_wz").show();
+				$(".srycq").html("预期");
+				$("#gender").val(-1);
+				 
+				$(".gd_nan").removeClass("active");
+				$(".gd_nv").removeClass("active");
+				$(".gd_wz").addClass("active");
+ 
+			}
+		</script>
+        <form  id="form" action="{:U('order/add')}" method="post">
+          <ul>
+			<li style="clear: both" class="wapnonel">
+              <!--<label style="background-position:0 0;"></label>-->
+              <div class="sexx">状态</div>
+              <div class="input-box">
+                <div class="btn-raido active" data-val="1" style="width: auto;" onClick="csztfun()"> <i></i>已出生 </div>
+                <div class="btn-raido" data-val="0" style="width: auto;" onClick="csztfun1()"> <i></i>未出生</div>
+                <input name="cszt" id='cszt' type="hidden" value="1" />
+              </div>
+            </li>
+            <li class="wapnonel xingshi">
+              <!--<label class="one"></label>-->
+              <div class="sexx">姓氏</div>
+              <div class="input-box" style="position:relative;">
+                <input class="username animated" name="name" style='position:absolute;top:0;left:10px;font-size: 20px;line-height:30px;width:250px;' type="text" value="" placeholder="请填写姓氏" />
+              </div>
+            </li>
+            <li class="zibei">
+            	<div class="sexx">字辈</div>
+              <!--<label style="background-position:-322px 0;"></label>-->
+              <div class="input-box" style="position:relative;">
+              	<input class="animated" name="zibei" style='font-size: 20px;line-height:30px;width:250px;position:absolute;top:0;left:10px;' type="text" value="" placeholder="没有可不填" />
+              </div>
+            </li>
+            <div style="clear: both"></div>
+            <li style="clear: both" class="wapnonel">
+              <!--<label style="background-position:0 0;"></label>-->
+              <div class="sexx">性别</div>
+              <div class="input-box">
+                <div class="btn-raido gd_nan active" data-val="1"> <i></i>男 </div>
+                <div class="btn-raido gd_nv" data-val="0"> <i></i>女 </div>
+				<div class="btn-raido gd_wz" data-val="-1" style="display:none;width:90px;"> <i></i>未知 </div>
+                <input name="gender" id='gender' type="hidden" value="1" />
+              </div>
+            </li>
+           <li class="wapnonel shengri">
+           	<div class="sexx srycq">生日</div>
+             <!-- <label class="shengchent" ></label>-->
+              <div class="input-box">
+                <div class="time1">
+					<select class="hour" name="b_input" style="width:50px;">
+					  <option value="0">公历</option>
+					  
+					</select>
+                   </div> 
+                
+                    <div class="time1">
+					<select class="hour input" name="birthday" style="width: 50px !important;">
+					  <volist name="years" id="vo">
+					  <option value="{$vo}" <eq name="vo" value="2018"> selected="selected"</eq>>{$vo}</option>
+					  </volist>
+					
+					 
+					</select>
+                  <span>年</span> </div>
+                  <div class="time1">
+					<select class="hour " name="birthm">
+					  <option value="0">--</option>
+					  <option value="1" selected="selected">1</option>
+					  <option value="2">2</option>
+					  <option value="3">3</option>
+					  <option value="4">4</option>
+					  <option value="5">5</option>
+					  <option value="6">6</option>
+					  <option value="7">7</option>
+					  <option value="8">8</option>
+					  <option value="9">9</option>
+					  <option value="10">10</option>
+					  <option value="11">11</option>
+					  <option value="12">12</option>
+					</select>
+                  <span>月</span> </div>
+                  <div class="time1">
+					<select class="hour" name="birthd">
+					  <option value="0">--</option>
+					  <option value="1" selected="selected">1</option>
+					  <option value="2">2</option>
+					  <option value="3">3</option>
+					  <option value="4">4</option>
+					  <option value="5">5</option>
+					  <option value="6">6</option>
+					  <option value="7">7</option>
+					  <option value="8">8</option>
+					  <option value="9">9</option>
+					  <option value="10">10</option>
+					  <option value="11">11</option>
+					  <option value="12">12</option>
+					  <option value="13">13</option>
+					  <option value="14">14</option>
+					  <option value="15">15</option>
+					  <option value="16">16</option>
+					  <option value="17">17</option>
+					  <option value="18">18</option>
+					  <option value="19">19</option>
+					  <option value="20">20</option>
+					  <option value="21">21</option>
+					  <option value="22">22</option>
+					  <option value="23">23</option>
+					  <option value="24">24</option>
+					  <option value="25">25</option>
+					  <option value="26">26</option>
+					  <option value="27">27</option>
+					  <option value="28">28</option>
+					  <option value="29">29</option>
+					  <option value="30">30</option>
+					  <option value="31">31</option>
+					 
+					</select>
+                  <span>日</span> </div>
+               
+            </li>
+           <li class="wapnonel shichen">
+              <!--<label style="background-position:-78px 0;"></label>-->
+              <div class="sexx">时辰</div>
+              <div class="input-box">
+
+                
+                <div class="time1">
+					<select class="hour" name="birthtime" style="width:50px;">
+					  <option value="0">未知</option>
+					  <option value="0">0</option>
+					  <option value="1">1</option>
+					  <option value="2">2</option>
+					  <option value="3">3</option>
+					  <option value="4">4</option>
+					  <option value="5">5</option>
+					  <option value="6">6</option>
+					  <option value="7">7</option>
+					  <option value="8">8</option>
+					  <option value="9">9</option>
+					  <option value="10">10</option>
+					  <option value="11">11</option>
+					  <option value="12">12</option>
+					  <option value="13">13</option>
+					  <option value="14">14</option>
+					  <option value="15">15</option>
+					  <option value="16">16</option>
+					  <option value="17">17</option>
+					  <option value="18">18</option>
+					  <option value="19">19</option>
+					  <option value="20">20</option>
+					  <option value="21">21</option>
+					  <option value="22">22</option>
+					  <option value="23">23</option>
+					</select>
+					 
+                  <span>时</span> </div>
+                 
+                <div class="time1">
+					<select class="minutes" name="birthmin" style="width:50px;">
+					  <option value="0">未知</option>
+					  <option value="0">0</option>
+					  <option value="1">1</option>
+					  <option value="2">2</option>
+					  <option value="3">3</option>
+					  <option value="4">4</option>
+					  <option value="5">5</option>
+					  <option value="6">6</option>
+					  <option value="7">7</option>
+					  <option value="8">8</option>
+					  <option value="9">9</option>
+					  <option value="10">10</option>
+					  <option value="11">11</option>
+					  <option value="12">12</option>
+					  <option value="13">13</option>
+					  <option value="14">14</option>
+					  <option value="15">15</option>
+					  <option value="16">16</option>
+					  <option value="17">17</option>
+					  <option value="18">18</option>
+					  <option value="19">19</option>
+					  <option value="20">20</option>
+					  <option value="21">21</option>
+					  <option value="22">22</option>
+					  <option value="23">23</option>
+					  <option value="24">24</option>
+					  <option value="25">25</option>
+					  <option value="26">26</option>
+					  <option value="27">27</option>
+					  <option value="28">28</option>
+					  <option value="29">29</option>
+					  <option value="30">30</option>
+					  <option value="31">31</option>
+					  <option value="32">32</option>
+					  <option value="33">33</option>
+					  <option value="34">34</option>
+					  <option value="35">35</option>
+					  <option value="36">36</option>
+					  <option value="37">37</option>
+					  <option value="38">38</option>
+					  <option value="39">39</option>
+					  <option value="40">40</option>
+					  <option value="41">41</option>
+					  <option value="42">42</option>
+					  <option value="43">43</option>
+					  <option value="44">44</option>
+					  <option value="45">45</option>
+					  <option value="46">46</option>
+					  <option value="47">47</option>
+					  <option value="48">48</option>
+					  <option value="49">49</option>
+					  <option value="50">50</option>
+					  <option value="51">51</option>
+					  <option value="52">52</option>
+					  <option value="53">53</option>
+					  <option value="54">54</option>
+					  <option value="55">55</option>
+					  <option value="56">56</option>
+					  <option value="57">57</option>
+					  <option value="58">58</option>
+					  <option value="59">59</option>
+					</select>
+                  <span>分</span> </div>
+            </li>
+			<style>
+			.sexx {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    width: 40px;
+    border: none;
+     
+	margin-left: 5px;
+    font-family: "黑体";
+	text-align:center;
+}
+</style> 
+            <li class="wapnonel">
+              <!--<label style="background-position:-153px 0;"></label>-->
+              <div class="sexx">电话</div>
+              <div class="input-box" style="position:relative;">
+                <input class="animated" name="mobile" style='font-size: 20px;line-height:30px;position:absolute;top:0;left:10px;width: 330px;' type="text" value="" placeholder="请填写邮箱或电话（可不填）" />
+              </div>
+            </li>
+            <div style="clear: both"></div>
+            <li class="submit">
+              <input id="cs" type="submit" value="立即获取宝宝吉祥美名"/>
+            </li>
+            <li class="text"> <span>特惠价9.9元 - 马上取100个好名字</span> style='font-size: 10px;</li>
+          </ul>
+        </form>
+      </div>
+      <div class="bottom"></div>
+    </div>
+  </div>
+  <!-- 在线下单结束 --> 
+
+
+<style type="text/css">
+				.newPiece{width:100%;overflow: hidden;padding:0 0.2rem;background:#f8f8f0;}
+				.newPiece .newPieTop{width:100%;overflow: hidden;padding:0 0.55rem;}
+				.newPiece .newPieTop img{width:100%;float: left;margin:0.4rem 0 0.6rem;}
+				.newPiece .newPieTop p{width:100%;font-size:0.3rem;text-align: center;color:#8e4d10;border:1px solid #cca177;}
+				.newPiece .newPieTop p.pa{height:0.62rem;line-height:0.62rem;border-radius:15px;margin-bottom:0.42rem;}
+				.newPieFourImg{width:100%;overflow: hidden;padding:0 0.9rem;margin-bottom:0.45rem;}
+				.newPieFourImg img{width:100%;float: left;}
+				.newPiece .newPieTop p.pb{overflow: hidden;border-radius:10px;padding:0.25rem 0.2rem 0.2rem;margin-bottom:0.41rem;}
+				.newPiece .newPieTop p.pb span{display: block;font-size:0.26rem;color:#666666;margin-top:0.15rem;}
+				.newPieVs{width:100%;overflow: hidden;margin-bottom:0.42rem;}
+				.newPieVs img{width:100%;float: left;}
+				.newPieList{width:100%;overflow: hidden;}
+				.newPieList>li{width:100%;float: left;overflow: hidden;position:relative;margin-bottom:0.3rem;}
+				.newPieList li .newPieList_con{width:42%;float: left;overflow: hidden;}
+				.newPieList li .newPieList_con h2{font-size:0.28rem;width:100%;height:0.64rem;line-height:0.64rem;text-align: center;color:#fff;background:#9b0300;}
+				.nP_fr{float: right !important;}
+				.newPieList>li:before{content: '';width:0.4rem;height:0.92rem;display: block;background:url(/Public/Wap2/images/default_3.0/newPieceIcon.png) no-repeat;background-size:2rem;position:absolute;top:50%;left:50%;margin:-0.46rem 0 0 -0.2rem;}
+				.newPieList>li:nth-child(2):before{background-position:-0.8rem 0;}
+				.newPieList>li:nth-child(3):before{background-position:-1.56rem 0;}
+				.newPieList_con>.newPieL_info{width:100%;overflow: hidden;background:#fff;border:1px solid #9b0300;font-size:0.28rem;padding:0.2rem 0;}
+				.newPieL_info li{width:100%;overflow: hidden;float: left;margin-bottom:0.1rem;}
+				.newPieL_tu_list li{padding:0 0.1rem 0 0.25rem;color:#a73440;position:relative;}
+				.newPieL_tu_list li span{display: inline-block;float: left;}
+				.newPieL_tu_list li>.newPieL_tu{width:80%;height:0.25rem;line-height:0.25rem;font-size:0.24rem;position:absolute;top:50%;left:0.65rem;margin-top:-0.125rem;}
+				.newPieL_tu_list li>.newPieL_tu em{display: inline-block;width:12.5%;float: left;height:100%;background:#9fa247;margin-right:0.1rem;}
+				.newPieL_tu_list li:nth-child(2)>.newPieL_tu em{background:#cbcac9;width:7.06%;}
+				.newPieL_tu_list li:nth-child(3)>.newPieL_tu em{background:#a27347;width:35.29%;}
+				.newPieL_tu_list li:nth-child(4)>.newPieL_tu em{background:#c23a3a;width:28.24%;}
+				.newPieL_tu_list li:nth-child(5)>.newPieL_tu em{background:#8f6239;width:7.06%;}
+				.nP_fr .gray{background-color:#9e9e9e !important;}
+				.nP_fr .newPieL_txt{border-color:#9e9e9e !important;}
+				.nP_fr .newPieL_txt li{text-align: center;color:#4d4d4d;}
+				.textAlign li{text-align: left !important;padding:0 0.1rem 0 0.25rem;}
+				.newPieL_scwg{text-align: center;color:#a73440;}
+				.newPieL_scwg li i{color:#9c9d9d;}
+				.newPieL_scwg li b{width:0.62rem;height:0.32rem;line-height:0.32rem;background:#61493f;color:#fff;font-weight:normal;margin-left:0.1rem;display: inline-block;text-align: center;}
+			</style>
+			<div class="newPiece">
+				<div class="newPieTop"><img src="/images/newPiecetit.png"></div>
+				<div class="newPieTop"><p class="pa">独家五行喜用神 · 精准分析系统 !</p></div>
+				<div class="newPieFourImg"><img src="/images/newPiece_fourbox.png"></div>
+				<div class="newPieTop"><p class="pb">真实案例分析<span>案例：女子 公历生日 2016年6月12日 18点23分</span></p></div>
+				<div class="newPieVs"><img src="/images/newPieceVs.png"></div>
+				<ul class="newPieList">
+					<li>
+						<div class="newPieList_con nP_fl">
+							<h2>精确计算五星含量</h2>
+							<ul class="newPieL_info newPieL_tu_list">
+								<li>
+									<span>金</span>
+									<div class="newPieL_tu"><em></em>22.35%</div>
+								</li>
+								<li>
+									<span>水</span>
+									<div class="newPieL_tu"><em></em>7.06%</div>
+								</li>
+								<li>
+									<span>木</span>
+									<div class="newPieL_tu"><em></em>35.29%</div>
+								</li>
+								<li>
+									<span>火</span>
+									<div class="newPieL_tu"><em></em>28.24%</div>
+								</li>
+								<li>
+									<span>土</span>
+									<div class="newPieL_tu"><em></em>7.06%</div>
+								</li>
+							</ul>
+						</div>
+						<div class="newPieList_con nP_fr">
+							<h2 class="gray">精确计算五星含量</h2>
+							<ul class="newPieL_info newPieL_txt">
+								<li>金2个</li>
+								<li>水0个</li>
+								<li>木3个</li>
+								<li>火2个</li>
+								<li>土1个</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="newPieList_con nP_fl">
+							<h2>喜用神选择正确</h2>
+							<ul class="newPieL_info newPieL_tu_list">
+								<li>喜用神：水、木</li>
+								<li>忌<mr style="display: inline-block;margin-right:.28rem"></mr>神：火、土、金</li>
+							</ul>
+						</div>
+						<div class="newPieList_con nP_fr">
+							<h2 class="gray">喜用神选择正确</h2>
+							<ul class="newPieL_info newPieL_txt textAlign">
+								<li>喜用神：水、土</li>
+								<li>忌<mr style="display: inline-block;margin-right:.28rem"></mr>神：金、木、火</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="newPieList_con nP_fl">
+							<h2>三才五格评分</h2>
+							<ul class="newPieL_info newPieL_scwg">
+								<li>配置<i>(健康)</i><b>100</b></li>
+								<li>基础<i>(环境)</i><b>100</b></li>
+								<li>成功<i>(事业)</i><b>100</b></li>
+								<li>社交<i>(机遇)</i><b>95</b></li>
+								<li>天格<i>(遗传)</i><b>100</b></li>
+								<li>人格<i>(才华)</i><b>95</b></li>
+								<li>地格<i>(家庭)</i><b>100</b></li>
+								<li>总格<i>(财富)</i><b>95</b></li>
+								<li>外格<i>(朋友)</i><b>100</b></li>
+							</ul>
+						</div>
+						<div class="newPieList_con nP_fr">
+							<h2 class="gray">无三才五格评分</h2>
+							<ul class="newPieL_info newPieL_txt">
+								<li>配置:60</li>
+								<li>基础:32</li>
+								<li>成功:40</li>
+								<li>社交:24</li>
+								<li>天格:5</li>
+								<li>人格:18</li>
+								<li>地格:23</li>
+								<li>总格:27</li>
+								<li>外格:13</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 新增END -->
+            
+			<div class="qm_con">
+				<div class="case"><span class="case_col case_l" data-bady="1" onclick="case_tit(this)">男宝宝案例</span><span class="case_r" data-bady="0" onclick="case_tit(this)">女宝宝案例</span></div>
+			  <ul class="case_ul"><li><div class="case_img"><img src="/images/anli/nv_baby01.jpg"><p>童歆然</p></div><div class="case_ul_con"><p><span>·五行分析</span>：歆然   五行：金金</p><p><span>·寓意分析</span>：歆：本义为欣喜，引申为幸福快乐、积极向上。然：本义为燃烧，引申为积极向上，好的品德。</p><p><span>·相关成语</span>：褎然举首、超然绝俗</p><p><span>·重名分析</span>：全国叫 童歆然 的有： 6人</p></div></li><li><div class="case_img"><img src="/images/anli/nv_baby02.jpg"><p>李沐遥</p></div><div class="case_ul_con"><p><span>·五行分析</span>：沐遥   五行：水火</p><p><span>·寓意分析</span>：沐：本义为受到润泽，引申为博学多识、前程似锦  遥：本义为长远，引申为前程似锦。</p><p><span>·相关成语</span>：沐仁浴义 遥遥领先</p><p><span>·重名分析</span>：全国叫 李沐遥的有： 6人</p></div></li><li><div class="case_img"><img src="/images/anli/nv_baby03.jpg"><p>蔡诗涵</p></div><div class="case_ul_con"><p><span>·五行分析</span>：诗涵   五行：水火</p><p><span>·寓意分析</span>：诗：本义为诗歌，引申为多才贤能，品德高尚，如诗如画，美好人生 涵：本义为水泽众多，引申为涵养、修养、内涵、包容。</p><p><span>·相关成语</span>：横槊赋诗 茹古涵今</p><p><span>·重名分析</span>：全国叫蔡诗涵然 的有： 10人</p></div></li></ul>
+
+	</div>
+			<div class="qm_advert" style="margin-bottom:0.4rem;">
+				<h2><img src="/images/dvert01.jpg"></h2>
+				<ul class="qm_advert_ul">
+					<li>
+						<img src="/images/new_wyqm_2.jpg">
+						<div class="advert_ul_con">
+							<h3>老师亲算，吉祥美名</h3>
+							<p>老师专注周易命名多年，深究百家姓词，专业，命名案例高达10万多位，权威国学周易老师亲临指导。</p>
+						</div>
+					</li>
+					<li>
+						<img src="/images/advert03.jpg">
+						<div class="advert_ul_con">
+							<h3>权威正规，诚信经营</h3>
+							<p>荣获中国易学协会特邀单位，2015年最具电商潜力企业，中华易学研究示范单位，中华杰出易学奖等。</p>
+						</div>
+					</li>
+					<li>
+						<img src="/images/advert04.jpg">
+						<div class="advert_ul_con">
+							<h3>国家实力，专业可靠</h3>
+							<p>国家正规注册公司，2000多方办公经营，均有实体店，服务保障。</p>
+						</div>
+					</li>
+					<li>
+						<img src="/images/advert05.jpg">
+						<div class="advert_ul_con">
+							<h3>诚恳服务，口碑一流</h3>
+							<p>专业服务是我们的宗旨，客户满意是我们最大的追求，精心配到，服务至上，国学助理会全程服务跟踪。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+	<style type="text/css">
+				.dsTeam{width:100%;overflow:hidden;background:#f8f8f0;padding-top:0.3rem;margin-top:0.2rem !important;}
+				.team_jj{width:100%;overflow: hidden;border-radius:3px;}
+				.team_jj .teamTit{width:100%;height:1.104rem;text-align: center;line-height:1.104rem;letter-spacing:1px;font-size:0.32rem;color:#8c2738;}
+				.team_jj .teamTit span{position:relative;padding:0 0.336rem;}
+				.team_jj .teamTit span:before{content: '';width:0.4rem;height:1px;background:#8C2738;position:absolute;top:50%;left:-0.55rem;-webkit-transform: translate(0,-50%);-moz-transform: translate(0,-50%);transform: translate(0,-50%);}
+				.team_jj .teamTit span:after{content: '';width:0.4rem;height:1px;background:#8C2738;position:absolute;top:50%;right:-0.55rem;-webkit-transform: translate(0,-50%);-moz-transform: translate(0,-50%);transform: translate(0,-50%);}
+				.team_jj .teamTit span i{width:0.14rem;height:0.14rem;border:1px solid #8c2738;display: block;position:absolute;top:calc(50% - 0.07rem);transform:rotate(45deg);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);}
+				.team_jj .teamTit span i:first-child{left:0;}
+				.team_jj .teamTit span i:last-child{right:0;}
+				.team_jj .teamTxt{width:100%;overflow: hidden;font-size:0.2688rem;color:#666666;}
+				.team_jj .teamTxt li{width:100%;height:auto;margin-bottom:0.211rem;}
+				.team_jj .teamTxt li:last-child{margin-bottom:0;}
+				.team_jj .team_dashijianjie{width:100%;margin-bottom:0.556rem;overflow: hidden;box-sizing: border-box;}
+				.team_jj .team_dashijianjie img{width:100%;float: left;}
+			</style>
+			<div class="qm_con dsTeam">
+				<h2 class="qm_con_tit qm_con_titA" style="margin-bottom:0;">核心优势</h2>
+				<div class="team_jj">
+					<div class="teamTit"><span><i class="teFang"></i>周易文化20年精诚局钜献<i class="teFang"></i></span></div>
+					<ul class="teamTxt">
+						<li>【忠实用户】超过1亿用户，覆盖48个国家及华人地区</li>
+						<li>【专业名师】桃李满天下，百余名徒弟皆为易学名家。</li>
+						<li>【精英团队】数百位玄学精英编撰后台内容</li>
+						<li>【内容丰富】每项超值数万字内容精析</li>
+					</ul>
+					<div class="teamTit"><span><i class="teFang"></i>中国权威易经起名策划机构<i class="teFang"></i></span></div>
+					<div class="team_dashijianjie"><img src="/images/teamjieshao.png"></div>
+				</div>
+			</div>
+			<div class="qm_con">
+				<h2 class="qm_con_tit">常见问题</h2>
+				<ul class="qm_quest">
+					<li>
+						<h3>·名字真的那么重要吗？</h3>
+						<p>答：古人曰“赐子千金，不如赐子一艺，赐子一艺，不如赐子好名”。“名不正则言不顺”。但是，不同的人生时期，对名字的也有不同的要求；不同的工作事业，名字所起的作用也有轻重之分。</p>
+					</li>
+					<li>
+						<h3>·宝宝八字的五行，是缺什么就补什么吗？</h3>
+						<p>答：不是。需要区别对待，精确分析，真正做到“需要什么，则补什么”。否则就是简单加减，补救容易失误。</p>
+					</li>
+					<li>
+						<h3>·宝宝起名是否要考虑生肖宜忌？</h3>
+						<p>答：生肖一般对应生辰八字中的年份，相当于是根据宝宝出生年的干支来论命，测算结果比较片面，准确度并不高。而八字起名，是以年、月、日、时为测算时间段，实际上涵盖了生肖测算，且测算结果更具整体性。</p>
+					</li>
+					<li>
+						<h3>·改名需要改户口和身份证吗？</h3>
+						<p>改名，是改最常用的名字。改名之后，并不一定办手续改户口薄，只要自己确认并多用 就行。姓名数理的影响力大小与其使用程度有关，使用越多，影响力越大。但是，如果发现自己的名字不好，而改用某个名人的名字，并不一定合适。因为姓名数是配合本人先天条件才能发挥好影响力，而每个人的先天条件不同，故不能生搬硬套，只能根据自己的具体条件改名。</p>
+					</li>
+					<li>
+						<h3>·名字不满意怎么办？</h3>
+						<p>答：极速周易起名的不满意率只有千分之二，原因大多是因为操作不熟练、需求不明确、追求满分造成的。 如果您有疑问请及时联系客服，我们一定能完美解决您所提出的问题，争取满意百分百。</p>
+					</li>
+				</ul>
+			</div>
+
+	<script type="text/javascript" src="/images/xin_qm.js"></script>	
+<script type="text/javascript" src="__HOMESTYLE__/js/scroll_s.js" ></script> 
+<script type="text/javascript">
+
+function in_array(search,array){
+    for(var i in array){
+        if(array[i]==search){
+            return true;
+        }
+    }
+    return false;
+}
+
+function getOrder(){
+	var order = $("input[name='dingdanhao']").val();
+	if(order==""){
+		alert("请输入完整的订单号！");
+		return;
+	}
+	$.post("{:U('order/check')}",{"orderno":order},function(data){
+		//var ret = eval("("+data+")");
+		if(data=="fail"){
+			alert("订单不存在！");
+		}
+		else
+		{
+			window.location.href="/order/mlist/orderno/"+order;
+		}
+	});
+}
+       		$(function () {
+	            $("#demoxj").myScroll({
+	            speed: 40, //数值越大，速度越慢
+	            rowHeight: 30 //li的高度
+	            });
+	             $("#nxt").myScroll({
+	            speed: 40, //数值越大，速度越慢
+	            rowHeight: 30 //li的高度
+	            });
+	        });
+</script>
+
+</div>
+<script>
+$(function(){
+		
+	$(".btn-raido").click(function(){
+		$(this).addClass("active").siblings().removeClass("active");
+		$(this).parent().find("input").val($(this).attr("data-val"));
+	});
+	/*$.get('/sm/tj',{_d:(+new Date())},function(d){
+		$("#tjs").text(d)
+	});
+							
+	var calendar1 = new lCalendar().init('#birthday');
+	
+	$(".btn-raido").click(function(){
+		$(this).addClass("active").siblings().removeClass("active");
+		$(this).parent().find("input").val($(this).attr("data-val"));
+	});
+	
+	for( var i = 0 ; i < 24 ; i++ ){
+		$("select.hour").append("<option value='" + i + "'>" + i + "</option>")
+	}
+	for( var i = 0 ; i < 60 ; i++ ){
+		$("select.minutes").append("<option value='" + i + "'>" + i + "</option>")
+	}*/
+	
+/*	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		paginationClickable: true,
+		autoplay: 5000,
+		loop: true
+	});
+	swiper.startAutoplay();
+	loadxing(0);*/
+	
+	
+	/*
+	 * 姓名选择
+	 * */
+	$("input.username").click(function(){
+		$(".surname-wrap").slideDown();
+	});
+	
+	/*
+	 *姓名选择框关闭
+	 * */
+	$(".surname-wrap .top-box .right-btn .close").click(function(){
+		$(".surname-wrap").slideUp();
+	});
+	
+	/*
+	 *姓名选择框清空
+	 * */
+	$(".surname-wrap .top-box .right-btn .empty").click(function(){
+		$("input.username").val("");
+	});
+	
+	/*
+	 *姓氏筛选
+	 * */
+	$(".common-name ul li").click(function(){
+		loadxing($(this).text().toLowerCase().toString());
+	});
+	
+	/*
+	 * 姓名选择
+	 * */
+	$("ul.surname-item").on("click","li",function(){
+		$("input.username").val($(this).text());
+		$(".surname-wrap").slideUp();
+	});
+	
+	/*
+	 * 右侧悬浮点击
+	 * */
+	$(".right-float ul li").click(function(){
+		$("html,body").animate({
+			scrollTop: $($(this).attr("data-dom")).offset().top - 88
+		},500);
+	});
+	
+	var offset = $(".right-float").offset().top;
+	$(window).scroll(function() { 
+		$(".right-float").stop().animate({ 
+			"top": $(window).scrollTop() + offset
+		},500); 
+	}); 
+	
+	
+	$(".jump-form").click(function(){
+		$("html,body").animate({
+			scrollTop: $(".place-order").offset().top - 88
+		},500);
+	});
+	
+	
+	$("#form").submit(function(){
+
+var allow1 = Array("丁","卜","刀","肖","佘","力","刁","于","山","上","弓","弋","千","乞","士","兀","丌","王","孔","毛","文","方","牛","尤","尹","元","太","巴","公","亢","水","戈","仇","井","支","壬","付","石","占","古","田","白","甘","史","司","申","包","皮","左","右","丘","令","冉","央","平","丙","弘","母","仝","印","朱","伍","全","米","安","伊","吉","列","向","戎","伏","年","衣","危","羊","任","牟","百","曲","匡","光","后","共","老","同","守","再","李","吴","宋","杜","江","何","吕","余","谷","车","池","辛","呙","巫","成","冷","言","吾","利","况","希","汝","良","佟","岑","林","冼","卓","汪","金","武","孟","周","东","尚","季","明","杭","房","易","狄","长","念","岳","屈","居","艾","官","幸","沙","来","和","宗","禹","姜","纪","柯","施","俞","姚","查","段","封","韦","柳","侯","宣","帅","相","风","狐","柏","哈","南","马","唐","乌","高","洪","秦","班","凌","花","袁","夏","祝","芮","瓮","孙","敖","柴","桂","倪","殷","席","耿","晋","师","晏","容","徐","家","晁","姬","张","许","梁","苗","崔","商","康","胡","章","曹","浦","邢","麦","区","毕","粘","涂","常","鱼","寇","符","梅","苟","戚","尉","麻","茅","傅","黄","曾","邱","彭","阮","程","盛","邵","贺","童","辜","冯","荀","项","乔","荆","费","焦","喻","钮","嵇","闵","单","尧","凌","茹","斯","舒","植","杨","詹","荘","贾","虞","楚","路","雷","莫","湯","湛","温","涂","解","雍","廉","新","靳","郁","裘","赵","廖","连","郎","管","郝","赫","齐","华","熊","裴","荣","种","宁","台","郗","郜","闻","端","辅","甄","翟","臧","刘","叶","郭","葛","欧","樊","董","鲁","褚","万","乐","谈","卫","范","黎","厉","练","巩","陕","广","满","玛","慕","滕","墨","逯","陈","钱","赖","陆","潘","阎","鲍","蒲","穆","陶","霍","龙","卢","诸","燕","骆","游","蔡","谢","干","蒋","应","赛","阳","蔚","缪","邬","隆","戴","澹","临","襄","营","韩","邹","锺","魏","简","颜","储","瞿","济","阙","聂","隗","丰","礼","鄢","沈","严","罗","郑","邓","关","萧","谭","薛","薄","庞","迟","蓝","钟","窦","释","怀","阚","党","继","权","巍","饶","顾","铁","珑","苏","龚","邝","蔺","边","兰");
+var allow2 = new Array("万俟","司马","上官","欧阳","夏侯","诸葛","闻人","东方","赫连","皇甫","尉迟","公羊","澹台","公冶","宗政","濮阳","淳于","单于","太叔","申屠","公孙","仲孙","轩辕","令狐","钟离","宇文","长孙","慕容","鲜于","闾丘","司徒","司空","丌官","司寇","仉督","子车","颛孙","端木","巫马","公西","漆雕","乐正","壤驷","公良","拓跋","夹谷","宰父","谷梁","晋楚","闫法","汝鄢","涂钦","段干","百里","东郭","南门","呼延","归海","羊舌","微生","岳帅","缑亢","况郈","有琴","梁丘","左丘","东门","西门","商牟","佘佴","伯赏","南宫","墨哈","谯笪","年爱","阳佟","第五","言福");
+		var data = {};
+		$($(this).serializeArray()).each(function(){  
+			data[this.name]=this.value;  
+		}); 
+		if( data.name == '' || data.name == undefined ){
+			$("input.username").addClass("shake");
+			setTimeout(function(){
+				$("input.username").removeClass("shake");
+			},750);
+			return false;
+		}
+		var xing1 = data.name.substr(0,1);
+		var xing2 = data.name.substr(0,2);
+		if(!in_array(xing1,allow1) && data.name.length==1){
+			alert('姓氏填写错误');
+			$("input.username").addClass("shake");
+			setTimeout(function(){
+				$("input.username").removeClass("shake");
+			},750);
+			return false;
+		}
+
+		if(!in_array(xing2,allow2) && data.name.length==2){
+			alert('姓氏填写错误');			
+			$("input.username").addClass("shake");
+			setTimeout(function(){
+				$("input.username").removeClass("shake");
+			},750);
+			return false;
+		}
+
+		if(data.name.length>2){
+			alert('姓氏填写错误');
+			$("input.username").addClass("shake");
+			setTimeout(function(){
+				$("input.username").removeClass("shake");
+			},750);
+			return false;
+		}
+
+		var reg=/^[\u2E80-\u9FFF]+$/;
+		if(!reg.test(data.name)){
+			alert('姓氏填写错误');
+			$("input.username").addClass("shake");
+			setTimeout(function(){
+				$("input.username").removeClass("shake");
+			},750);
+			return false;
+		}
+		if( data.birthday == '' || data.birthday == undefined ){
+			$("input.Js_date").addClass("shake");
+			setTimeout(function(){
+				$("input.Js_date").removeClass("shake");
+			},750);
+			return false;
+		}
+		data.xing= data.name;
+		data.phone = (+new Date()) + "" + getRandomInt(1000,9999);
+		data.ver="";
+		
+		location.href = "{:U('order/add')}?" + $.param(data);
+		
+		return false;
+	});
+
+
+});
+
+function getRandomInt(min, max) {
+	min = Math.ceil(min);
+	max = Math.floor(max);
+	return Math.floor(Math.random() * (max - min)) + min;
+}
+</script> 
+
+<!-- 右侧悬浮 -->
+<div class="right-float">
+</div>
+<!--
+<script src='__HOMESTYLE__/js/rightfix.js'></script>
+-->
+<!--右侧联系方式 START-->
+<style>
+    .fix_rightx { width: 125px;position: fixed;top: 63% ;right:0; text-align: center;background:#E44D4D }
+    .fix_rightx .a{background: #E44D4D;height: 45px;width: 125px;display: block;color: #fff;line-height: 45px;font-size: 16px;}
+</style>
+<!--张亮的代码-->
+<style>
+.foot{width:100%;background:#f5f5f5; z-index:9999; position:fixed; bottom:0; left:0;padding:5px 0;z-index:99999999999999999999;border-top:1px solid #eee;}
+.foot .closes{width:18px;height:18px; line-height:15px;position:absolute;right:10px;top:10px;cursor:pointer;font-size:14px; padding-top:5px;}
+.foot .wx{width:100%;background:#D6E9C6;position:absolute;left:0;top:-74px;text-align:center;line-height:180%;font-size:15px;padding:10px 0;display:none;}
+.foot .wx a{background:#5CB85C;color:#fff;padding:3px 5px;border-radius:5px;}
+.foot .qq{width:100%;background:#D6E9C6;position:absolute;left:0;top:-74px;text-align:center;line-height:180%;font-size:15px;padding:10px 0;display:none;}
+.foot .qq a{background:#5CB85C;color:#fff;padding:3px 5px;border-radius:5px;}
+.foot ul li{width:25%;font-size:12px; float:left; color:#A00; text-align:center;font-size:14px;}
+.foot ul li img{margin-bottom:-5px; margin-left:-2px;width:34px;height:34px;}
+</style>
+<div class="foot">
+
+  <ul>
+     <a href="index.php" >
+    <li><img src="/images/bm.png"><br>网站首页</li></a>  
+     <a href="#place-order" >
+    <li><img src="/images/bm.png"><br>立即起名</li></a>
+	 <a href="order/pchistory.html" >
+    <li><img src="/images/bm.png"><br>订单查询</li></a>
+     <a href="tel:18801922223"><li><img src="/images/dh.png"><br>电话咨询</li></a>
+   
+  </ul>
+</div>
+<!--汪鑫的代码 end-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7c54c92373bf075ce01c8e7dfa9f2380";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!--右侧联系方式 END-->
+
+</block>

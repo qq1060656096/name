@@ -1,0 +1,1388 @@
+[ 2020-05-27T08:32:09+08:00 ] 66.249.71.106 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+ERR: 无法加载控制器:Robots.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T08:32:09+08:00 ] 66.249.71.104 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2020-05-27T09:53:28+08:00 ] 218.26.54.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2020-05-27T09:53:29+08:00 ] 218.26.54.232 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:53:29+08:00 ] 218.26.54.232 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:53:29+08:00 ] 218.26.54.232 /Public/states/js/lib/layer/theme/default/layer.css?v=3.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:53:30+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+
+[ 2020-05-27T09:53:30+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+
+[ 2020-05-27T09:53:30+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+
+[ 2020-05-27T09:53:30+08:00 ] 218.26.54.232 /Public/Wap2/images/default_3.0/newPieceIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T09:53:31+08:00 ] 218.26.54.232 /text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载控制器:Text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:53:48+08:00 ] 218.26.54.232 /order/add.html?cszt=1&name=%E9%83%AD&zibei=&gender=1&b_input=0&birthday=2018&birthm=1&birthd=1&birthtime=1&birthmin=0&mobile=&xing=%E9%83%AD&phone=15905444279032154&ver=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0123s ]
+SQL: SELECT `order_no`,`price`,`oldprice` FROM `order` WHERE ( phone = '15905444279032154' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: INSERT INTO `order` (`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`zibei`,`mobile`,`email`,`oldprice`,`createtime`,`datatype`) VALUES ('CS159054442875571','郭','1','2018-1-1','1','0','15905444279032154','','0','0.1','','','','88','1590544428','0') [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: jd1 /www/wwwroot/wap.177.name/asp.php 第 293 行.
+NOTIC: [8] Undefined index: jd2 /www/wwwroot/wap.177.name/asp.php 第 294 行.
+NOTIC: [8] Undefined offset: 1 /www/wwwroot/wap.177.name/asp.php 第 337 行.
+NOTIC: [8] Undefined offset: 1 /www/wwwroot/wap.177.name/asp.php 第 337 行.
+NOTIC: [8] Undefined offset: 2 /www/wwwroot/wap.177.name/asp.php 第 347 行.
+NOTIC: [8] Undefined offset: 3 /www/wwwroot/wap.177.name/asp.php 第 348 行.
+NOTIC: [8] Undefined variable: truesubsecond /www/wwwroot/wap.177.name/asp.php 第 354 行.
+NOTIC: [8] Undefined variable: taiyang /www/wwwroot/wap.177.name/asp.php 第 375 行.
+NOTIC: [8] Use of undefined constant qyjs9 - assumed 'qyjs9' /www/wwwroot/wap.177.name/asp.php 第 562 行.
+NOTIC: [2] str_repeat() expects exactly 2 parameters, 3 given /www/wwwroot/wap.177.name/asp.php 第 586 行.
+NOTIC: [8] Undefined variable: ssmainw /www/wwwroot/wap.177.name/asp.php 第 627 行.
+NOTIC: [8] Undefined variable: mainw /www/wwwroot/wap.177.name/asp.php 第 673 行.
+NOTIC: [8] Undefined variable: mainq /www/wwwroot/wap.177.name/asp.php 第 683 行.
+NOTIC: [8] Use of undefined constant wnum5 - assumed 'wnum5' /www/wwwroot/wap.177.name/asp.php 第 703 行.
+NOTIC: [8] Undefined variable: ymainq /www/wwwroot/wap.177.name/asp.php 第 760 行.
+NOTIC: [8] Use of undefined constant ymainw - assumed 'ymainw' /www/wwwroot/wap.177.name/asp.php 第 772 行.
+NOTIC: [8] Undefined variable: zh /www/wwwroot/wap.177.name/ys.php 第 51 行.
+NOTIC: [8] Use of undefined constant zh - assumed 'zh' /www/wwwroot/wap.177.name/cy.php 第 215 行.
+NOTIC: [8] Undefined variable: ygod /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: szwc /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cdsr /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cqtmh /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cgsm /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sedb /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: kg /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2020-05-27T09:53:48+08:00 ] 218.26.54.232 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:53:48+08:00 ] 218.26.54.232 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:53:48+08:00 ] 218.26.54.232 /Public/states/js/lib/layer/theme/default/layer.css?v=3.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:53:49+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+
+[ 2020-05-27T09:53:49+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+
+[ 2020-05-27T09:53:49+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+
+[ 2020-05-27T09:53:49+08:00 ] 218.26.54.232 /order/text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+ERR: 非法操作:text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:53:58+08:00 ] 218.26.54.232 /order/orderstate/orderno/CS159054442875571.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`oldprice` FROM `order` WHERE ( order_no = 'CS159054442875571' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2020-05-27T09:54:40+08:00 ] 101.226.225.86 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2020-05-27T09:54:40+08:00 ] 121.236.105.105 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:54:40+08:00 ] 101.226.225.86 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:54:41+08:00 ] 121.236.105.105 /Public/Wap2/images/default_3.0/newPieceIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+
+[ 2020-05-27T09:54:41+08:00 ] 121.236.105.105 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+
+[ 2020-05-27T09:54:41+08:00 ] 121.236.105.105 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+
+[ 2020-05-27T09:54:41+08:00 ] 121.236.105.105 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+
+[ 2020-05-27T09:54:41+08:00 ] 121.236.105.105 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:54:41+08:00 ] 101.226.225.86 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:54:41+08:00 ] 121.236.105.105 /Public/states/js/lib/layer/theme/default/layer.css?v=3.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:54:41+08:00 ] 121.236.105.105 /text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载控制器:Text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /Public/Wap2/images/default_3.0/newPieceIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /Public/states/js/lib/layer/theme/default/layer.css?v=3.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+
+[ 2020-05-27T09:54:51+08:00 ] 218.26.54.232 /text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+ERR: 无法加载控制器:Text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:55:02+08:00 ] 218.26.54.232 /order/add.html?cszt=1&name=%E9%83%AD&zibei=&gender=1&b_input=0&birthday=2018&birthm=1&birthd=1&birthtime=1&birthmin=1&mobile=&xing=%E9%83%AD&phone=15905445027032317&ver=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT `order_no`,`price`,`oldprice` FROM `order` WHERE ( phone = '15905445027032317' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `order` (`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`zibei`,`mobile`,`email`,`oldprice`,`createtime`,`datatype`) VALUES ('CS159054450235879','郭','1','2018-1-1','1','1','15905445027032317','','0','0.1','','','','88','1590544502','0') [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: jd1 /www/wwwroot/wap.177.name/asp.php 第 293 行.
+NOTIC: [8] Undefined index: jd2 /www/wwwroot/wap.177.name/asp.php 第 294 行.
+NOTIC: [8] Undefined offset: 1 /www/wwwroot/wap.177.name/asp.php 第 337 行.
+NOTIC: [8] Undefined offset: 1 /www/wwwroot/wap.177.name/asp.php 第 337 行.
+NOTIC: [8] Undefined offset: 2 /www/wwwroot/wap.177.name/asp.php 第 347 行.
+NOTIC: [8] Undefined offset: 3 /www/wwwroot/wap.177.name/asp.php 第 348 行.
+NOTIC: [8] Undefined variable: truesubsecond /www/wwwroot/wap.177.name/asp.php 第 354 行.
+NOTIC: [8] Undefined variable: taiyang /www/wwwroot/wap.177.name/asp.php 第 375 行.
+NOTIC: [8] Use of undefined constant qyjs9 - assumed 'qyjs9' /www/wwwroot/wap.177.name/asp.php 第 562 行.
+NOTIC: [2] str_repeat() expects exactly 2 parameters, 3 given /www/wwwroot/wap.177.name/asp.php 第 586 行.
+NOTIC: [8] Undefined variable: ssmainw /www/wwwroot/wap.177.name/asp.php 第 627 行.
+NOTIC: [8] Undefined variable: mainw /www/wwwroot/wap.177.name/asp.php 第 673 行.
+NOTIC: [8] Undefined variable: mainq /www/wwwroot/wap.177.name/asp.php 第 683 行.
+NOTIC: [8] Use of undefined constant wnum5 - assumed 'wnum5' /www/wwwroot/wap.177.name/asp.php 第 703 行.
+NOTIC: [8] Undefined variable: ymainq /www/wwwroot/wap.177.name/asp.php 第 760 行.
+NOTIC: [8] Use of undefined constant ymainw - assumed 'ymainw' /www/wwwroot/wap.177.name/asp.php 第 772 行.
+NOTIC: [8] Undefined variable: zh /www/wwwroot/wap.177.name/ys.php 第 51 行.
+NOTIC: [8] Use of undefined constant zh - assumed 'zh' /www/wwwroot/wap.177.name/cy.php 第 215 行.
+NOTIC: [8] Undefined variable: ygod /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: szwc /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cdsr /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cqtmh /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cgsm /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sedb /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: kg /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2020-05-27T09:55:03+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+
+[ 2020-05-27T09:55:03+08:00 ] 218.26.54.232 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:55:03+08:00 ] 218.26.54.232 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:55:03+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+
+[ 2020-05-27T09:55:03+08:00 ] 218.26.54.232 /Public/states/js/lib/layer/theme/default/layer.css?v=3.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:55:03+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+
+[ 2020-05-27T09:55:03+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2020-05-27T09:55:03+08:00 ] 218.26.54.232 /order/text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+ERR: 非法操作:text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:55:04+08:00 ] 218.26.54.232 /pay/wxpay.html?orderno=CS159054450235879
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`oldprice` FROM `order` WHERE ( order_no = 'CS159054450235879' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2020-05-27T09:55:08+08:00 ] 218.26.54.232 /order/readx/orderno/CS159054450235879.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`oldprice` FROM `order` WHERE ( order_no = 'CS159054450235879' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: xing /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2020-05-27T09:55:08+08:00 ] 218.26.54.232 /Public/Home/images/right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T09:55:08+08:00 ] 218.26.54.232 /Public/Home/images/left.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+
+[ 2020-05-27T09:55:08+08:00 ] 218.26.54.232 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:55:08+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+
+[ 2020-05-27T09:55:08+08:00 ] 218.26.54.232 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:55:08+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+
+[ 2020-05-27T09:55:08+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+
+[ 2020-05-27T09:55:08+08:00 ] 218.26.54.232 /Public/states/js/lib/layer/theme/default/layer.css?v=3.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:55:09+08:00 ] 218.26.54.232 /order/orderstate/orderno/CS159054450235879?param1=value1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`oldprice` FROM `order` WHERE ( order_no = 'CS159054450235879' ) LIMIT 1   [ RunTime:0.0157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2020-05-27T09:55:09+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2020-05-27T09:55:09+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+
+[ 2020-05-27T09:55:09+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+
+[ 2020-05-27T09:55:09+08:00 ] 218.26.54.232 /order/readx/orderno/text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`oldprice` FROM `order` WHERE ( order_no = 'text.txt' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: name /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 55 行.
+NOTIC: [8] Undefined index: order_no /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 59 行.
+NOTIC: [8] Undefined index: name /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 79 行.
+NOTIC: [8] Undefined index: gender /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 79 行.
+NOTIC: [8] Undefined index: birthday /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 79 行.
+NOTIC: [8] Undefined index: birthtime /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 79 行.
+NOTIC: [8] Undefined index: birthmin /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 79 行.
+NOTIC: [8] Undefined index: xing /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 79 行.
+NOTIC: [8] Undefined index: phone /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 79 行.
+NOTIC: [8] Undefined index: ver /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 79 行.
+NOTIC: [8] Undefined index: order_no /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 80 行.
+NOTIC: [8] Undefined index: state /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 84 行.
+NOTIC: [8] Undefined index: order_no /www/wwwroot/wap.177.name/Application/Runtime/Cache/Home/f0bdff09b2b617aebad2e890df131e1b.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2020-05-27T09:55:11+08:00 ] 218.26.54.232 /order/orderstate/orderno/CS159054450235879?param1=value1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`oldprice` FROM `order` WHERE ( order_no = 'CS159054450235879' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2020-05-27T09:55:12+08:00 ] 218.26.54.232 /order/mlist.html?orderno=CS159054450235879
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`datatype` FROM `order` WHERE ( order_no = 'CS159054450235879' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /Public/Wap2/images/default_3.0/newPieceIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /Public/states/js/lib/layer/theme/default/layer.css?v=3.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载控制器:Text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+
+[ 2020-05-27T09:56:47+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+
+[ 2020-05-27T09:57:02+08:00 ] 218.26.54.232 /order/pchistory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2020-05-27T09:57:03+08:00 ] 218.26.54.232 /order/orderstate.html?orderno=CS159054442875571
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`oldprice` FROM `order` WHERE ( order_no = 'CS159054442875571' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2020-05-27T09:57:03+08:00 ] 218.26.54.232 /order/orderstate.html?orderno=CS159054450235879
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`order_no`,`name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`price`,`oldprice` FROM `order` WHERE ( order_no = 'CS159054450235879' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2020-05-27T09:57:06+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+
+[ 2020-05-27T09:57:06+08:00 ] 218.26.54.232 /Public/Wap2/images/default_3.0/newPieceIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+
+[ 2020-05-27T09:57:06+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T09:57:06+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+
+[ 2020-05-27T09:57:07+08:00 ] 218.26.54.232 /text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载控制器:Text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T09:57:23+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T09:57:23+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T09:57:23+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+
+[ 2020-05-27T09:57:23+08:00 ] 218.26.54.232 /Public/Wap2/images/default_3.0/newPieceIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T09:57:24+08:00 ] 218.26.54.232 /text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载控制器:Text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002215s ]
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/Wap2/images/default_3.0/newPieceIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/states/js/lib/layer/theme/default/layer.css?v=3.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载控制器:Text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:05:02+08:00 ] 218.26.54.232 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2020-05-27T10:07:03+08:00 ] 101.89.29.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2020-05-27T10:07:08+08:00 ] 101.91.62.89 /order/add/name/%E9%83%AD/gender/1/birthday/2018-1-1/birthtime/1/birthmin/1/xing/%E9%83%AD/phone/15905445027032317.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Undefined index: birthm /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 19 行.
+NOTIC: [8] Undefined index: birthd /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT `order_no`,`price`,`oldprice` FROM `order` WHERE ( phone = '15905445027032317' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: jd1 /www/wwwroot/wap.177.name/asp.php 第 293 行.
+NOTIC: [8] Undefined index: jd2 /www/wwwroot/wap.177.name/asp.php 第 294 行.
+NOTIC: [8] Undefined index: birthm /www/wwwroot/wap.177.name/asp.php 第 296 行.
+NOTIC: [8] Undefined index: birthd /www/wwwroot/wap.177.name/asp.php 第 297 行.
+NOTIC: [8] Undefined index: b_input /www/wwwroot/wap.177.name/asp.php 第 302 行.
+NOTIC: [8] Undefined offset: 1 /www/wwwroot/wap.177.name/asp.php 第 337 行.
+NOTIC: [8] Undefined offset: 1 /www/wwwroot/wap.177.name/asp.php 第 337 行.
+NOTIC: [8] Undefined offset: 2 /www/wwwroot/wap.177.name/asp.php 第 347 行.
+NOTIC: [8] Undefined offset: 3 /www/wwwroot/wap.177.name/asp.php 第 348 行.
+NOTIC: [8] Undefined variable: truesubsecond /www/wwwroot/wap.177.name/asp.php 第 354 行.
+NOTIC: [8] Undefined variable: taiyang /www/wwwroot/wap.177.name/asp.php 第 375 行.
+NOTIC: [8] Use of undefined constant qyjs9 - assumed 'qyjs9' /www/wwwroot/wap.177.name/asp.php 第 562 行.
+NOTIC: [2] str_repeat() expects exactly 2 parameters, 3 given /www/wwwroot/wap.177.name/asp.php 第 586 行.
+NOTIC: [8] Undefined variable: ssmainw /www/wwwroot/wap.177.name/asp.php 第 621 行.
+NOTIC: [8] Undefined variable: mainw /www/wwwroot/wap.177.name/asp.php 第 673 行.
+NOTIC: [8] Use of undefined constant wnum5 - assumed 'wnum5' /www/wwwroot/wap.177.name/asp.php 第 703 行.
+NOTIC: [8] Undefined variable: mainq /www/wwwroot/wap.177.name/asp.php 第 704 行.
+NOTIC: [8] Undefined variable: ymainq /www/wwwroot/wap.177.name/asp.php 第 760 行.
+NOTIC: [8] Use of undefined constant ymainw - assumed 'ymainw' /www/wwwroot/wap.177.name/asp.php 第 772 行.
+NOTIC: [8] Undefined variable: zh /www/wwwroot/wap.177.name/ys.php 第 9 行.
+NOTIC: [8] Use of undefined constant w5 - assumed 'w5' /www/wwwroot/wap.177.name/ys.php 第 12 行.
+NOTIC: [8] Use of undefined constant w1 - assumed 'w1' /www/wwwroot/wap.177.name/ys.php 第 12 行.
+NOTIC: [8] Use of undefined constant w4 - assumed 'w4' /www/wwwroot/wap.177.name/ys.php 第 12 行.
+NOTIC: [8] Use of undefined constant w3 - assumed 'w3' /www/wwwroot/wap.177.name/ys.php 第 12 行.
+NOTIC: [8] Use of undefined constant w2 - assumed 'w2' /www/wwwroot/wap.177.name/ys.php 第 12 行.
+NOTIC: [8] Use of undefined constant zh - assumed 'zh' /www/wwwroot/wap.177.name/cy.php 第 215 行.
+NOTIC: [8] Undefined variable: ygod /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 139 行.
+NOTIC: [8] Undefined variable: szwc /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: ctc /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: swcw /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cdsr /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: scyw /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cgsm /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sedb /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: kg /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined index: b_input /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 148 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2020-05-27T10:07:15+08:00 ] 101.89.239.238 /order/add.html?cszt=1&name=%E9%83%AD&zibei=&gender=1&b_input=0&birthday=2018&birthm=1&birthd=1&birthtime=1&birthmin=0&mobile=&xing=%E9%83%AD&phone=15905444279032154&ver=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT `order_no`,`price`,`oldprice` FROM `order` WHERE ( phone = '15905444279032154' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: jd1 /www/wwwroot/wap.177.name/asp.php 第 293 行.
+NOTIC: [8] Undefined index: jd2 /www/wwwroot/wap.177.name/asp.php 第 294 行.
+NOTIC: [8] Undefined offset: 1 /www/wwwroot/wap.177.name/asp.php 第 337 行.
+NOTIC: [8] Undefined offset: 1 /www/wwwroot/wap.177.name/asp.php 第 337 行.
+NOTIC: [8] Undefined offset: 2 /www/wwwroot/wap.177.name/asp.php 第 347 行.
+NOTIC: [8] Undefined offset: 3 /www/wwwroot/wap.177.name/asp.php 第 348 行.
+NOTIC: [8] Undefined variable: truesubsecond /www/wwwroot/wap.177.name/asp.php 第 354 行.
+NOTIC: [8] Undefined variable: taiyang /www/wwwroot/wap.177.name/asp.php 第 375 行.
+NOTIC: [8] Use of undefined constant qyjs9 - assumed 'qyjs9' /www/wwwroot/wap.177.name/asp.php 第 562 行.
+NOTIC: [2] str_repeat() expects exactly 2 parameters, 3 given /www/wwwroot/wap.177.name/asp.php 第 586 行.
+NOTIC: [8] Undefined variable: ssmainw /www/wwwroot/wap.177.name/asp.php 第 627 行.
+NOTIC: [8] Undefined variable: mainw /www/wwwroot/wap.177.name/asp.php 第 673 行.
+NOTIC: [8] Undefined variable: mainq /www/wwwroot/wap.177.name/asp.php 第 683 行.
+NOTIC: [8] Use of undefined constant wnum5 - assumed 'wnum5' /www/wwwroot/wap.177.name/asp.php 第 703 行.
+NOTIC: [8] Undefined variable: ymainq /www/wwwroot/wap.177.name/asp.php 第 760 行.
+NOTIC: [8] Use of undefined constant ymainw - assumed 'ymainw' /www/wwwroot/wap.177.name/asp.php 第 772 行.
+NOTIC: [8] Undefined variable: zh /www/wwwroot/wap.177.name/ys.php 第 51 行.
+NOTIC: [8] Use of undefined constant zh - assumed 'zh' /www/wwwroot/wap.177.name/cy.php 第 215 行.
+NOTIC: [8] Undefined variable: ygod /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: szwc /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cdsr /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cqtmh /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: cgsm /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sedb /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: kg /www/wwwroot/wap.177.name/Application/Home/Controller/OrderController.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2020-05-27T10:07:16+08:00 ] 101.227.139.178 /order/mlist.html?orderno=CS159054450235879
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`gender`,`birthday`,`birthtime`,`birthmin`,`phone`,`ver`,`state`,`datatype` FROM `order` WHERE ( order_no = 'CS159054450235879' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2020-05-27T10:13:43+08:00 ] 101.91.62.89 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:13:47+08:00 ] 101.89.29.78 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:13:51+08:00 ] 101.89.239.238 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:18:04+08:00 ] 220.181.108.84 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2020-05-27T10:18:14+08:00 ] 111.206.221.91 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:18:18+08:00 ] 111.206.198.16 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:18:19+08:00 ] 111.206.221.106 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+
+[ 2020-05-27T10:18:19+08:00 ] 111.206.198.105 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+
+[ 2020-05-27T10:18:19+08:00 ] 111.206.221.33 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T10:18:19+08:00 ] 111.206.221.37 /Public/Wap2/images/default_3.0/newPieceIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T10:18:19+08:00 ] 111.206.198.123 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:18:19+08:00 ] 111.206.221.94 /Public/Wap2/css/default_1.0/calendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:18:20+08:00 ] 111.206.198.89 /Public/states/js/lib/layer/theme/default/layer.css?v=3.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:18:20+08:00 ] 111.206.198.91 /Public/Wap2/js/default_1.0/wyqm.js?ver1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:18:21+08:00 ] 111.206.221.109 /Public/Wap2/images/default_1.0/bbb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+
+[ 2020-05-27T10:18:21+08:00 ] 111.206.221.45 /Public/Wap2/images/default_1.0/gb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+
+[ 2020-05-27T10:18:22+08:00 ] 111.206.198.73 /text.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载控制器:Text.txt
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Filename cannot be empty /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/www/server/php/56/lib/php') /www/wwwroot/wap.177.name/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2020-05-27T10:18:24+08:00 ] 111.206.198.16 /Public/Wap2/images/default_1.0/myorder.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2020-05-27T10:39:15+08:00 ] 14.215.176.20 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002586s ]
+
