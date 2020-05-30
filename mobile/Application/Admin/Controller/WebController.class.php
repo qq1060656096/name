@@ -36,7 +36,7 @@ class webController extends Controller {
                     }
                     if($item['title'] == $nav_first_title){
                         $menus['main'][$key]['class']='active';
-                        $groups = M('WebMenu')->where("pid = {$item['id']}")->distinct(true)->field("`group`")->order('sort asc')->select();
+                        $groups = M('WebMenu')->where("pid = {$item['id']}")->distinct(true)->field("`group`")->select();
                         if($groups){
                             $groups = i_array_column($groups, 'group');
                         }else{
